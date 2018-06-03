@@ -1,0 +1,29 @@
+[
+    {   "nom": "Bergès ",
+        "prenom": "Léo ",
+        "age": "22ans ",
+        "profession": "étudiant ",
+        "mail": "watiwok@hotmail.fr ",
+        "tel": "06.17.11.24.49"
+},
+    {
+     
+        "nom": "Toto ",
+        "prenom": "Tata ",
+        "age": "70ans ",
+        "profession": "retraité ",
+        "mail": "tototata@truc.fr ",
+        "tel": "06.17.11.56.49"
+
+},
+    {
+     
+        "nom": "Truc ",
+        "prenom": "Much ",
+        "age": "30ans ",
+        "profession": "pharmacien ",
+        "mail": "mapharmacie@bobo.fr ",
+        "tel": "07.67.18.86.48"
+
+    }
+]

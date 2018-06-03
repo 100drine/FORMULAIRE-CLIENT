@@ -1,0 +1,40 @@
+<!doctype HTML>
+<html>
+
+<head>
+    <meta charset=utf-8/>
+    <link rel="stylesheet" href="style.css" />
+    <title>Formulaire client</title>
+</head>
+
+<body>
+    <h1>Formulaire client</h1>
+    <form action="/my-handling-form-page" method="post">
+        <div>
+            <select>
+        <option onclick = 'jeclick(0)'>Client</option>
+      <option onclick = 'jeclick(1)'>client1</option>
+     <option onclick = 'jeclick(2)'>client2</option>
+     
+ </select>
+        </div>
+        <div id="cli"></div>
+        <!--  Nom : <input type="text" id="nom" /> 
+        Prénom : <input type="text" id="prenom" /> 
+        age : <input type="text" id= "age" />
+        profession : <input type="text" id= "profession" />
+        email :<input type="text" id= "email" />
+        telephone :<input type="text" id= "telephone" /> -->
+
+        <!--  Le formulaire client
+
+Créer un fichier JSON contenant des informations sur un client (nom, prénom, âge, profession, email, téléphone etc...) Créer une liste déroulante avec les noms des clients de la base et lorsque que vous sélectionnez un client, l'ensemble de ses informations apparaissent plus bas avec AJAX.-->
+
+
+
+        <!--  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.json.js"></script>-->
+                <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+
+</html>
